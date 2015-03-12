@@ -1,8 +1,8 @@
 json.id @employee.id
-json.fname @employee.first_name
-json.lname @employee.last_name
+json.first_name @employee.first_name
+json.last_name @employee.last_name
 json.email @employee.email
-json.birthday @employee.birthdate
+json.birthdate @employee.birthdate
 json.status @employee.status
 
 if @employee.manager
